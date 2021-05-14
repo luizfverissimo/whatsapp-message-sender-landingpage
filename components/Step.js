@@ -2,13 +2,6 @@ export const Step = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-accent-700
-
- uppercase rounded-full bg-teal-accent-400">
-            Brand new
-          </p>
-        </div>
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
             <svg
@@ -33,19 +26,18 @@ export const Step = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">The</span>
+            <span className="relative">Siga</span>
           </span>{' '}
-          quick, brown fox jumps over a lazy dog
+          os passos para o sucesso
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          A comunicação com os seus clientes nunca foi tão fácil de se realizar.
         </p>
       </div>
       <div className="grid gap-10 lg:grid-cols-4 sm:grid-cols-2">
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 1</p>
+            <p className="text-2xl font-bold">Passo 1</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -70,13 +62,12 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            If one examines precultural libertarianism, one is faced with a
-            choice: either accept rationalism or conclude that context.
+            Exporte sua lista de contatos no formato ".xlsx" ou ".xls".
           </p>
         </div>
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 2</p>
+            <p className="text-2xl font-bold">Passo 2</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -101,13 +92,12 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            That is the true genius of America - a faith in simple dreams, an
-            insistence on small miracles.
+            Carregue a sua lista de contato através de um tabela .xlsx ou .xls.
           </p>
         </div>
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Step 3</p>
+            <p className="text-2xl font-bold">Passo 3</p>
             <svg
               className="w-6 text-gray-700 transform rotate-90 sm:rotate-0"
               stroke="currentColor"
@@ -132,15 +122,14 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            Those options are already baked in with this model shoot me an email
-            clear blue water but we need distributors.
+            Crie a sua mensagem exclusiva, com image e parâmetros dinâmicos.
           </p>
         </div>
         <div>
           <div className="flex items-center justify-between mb-6">
-            <p className="text-2xl font-bold">Success</p>
+            <p className="text-2xl font-bold">Sucesso</p>
             <svg
-              className="w-8 text-gray-600"
+              className="w-8 text-teal-accent-700"
               stroke="currentColor"
               viewBox="0 0 24 24"
             >
@@ -155,8 +144,7 @@ export const Step = () => {
             </svg>
           </div>
           <p className="text-gray-600">
-            Lookout flogging bilge rat main sheet bilge water nipper fluke to go
-            on account heave down clap of thunder.
+            Se comunique com os seus clientes de forma rápida e eficiênte.
           </p>
         </div>
       </div>

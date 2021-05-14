@@ -12,27 +12,9 @@ export const Navbar = () => {
           title='Company'
           className='inline-flex items-center'
         >
-          <svg
-            className='w-8 text-teal-accent-700
-
-
-
-'
-            viewBox='0 0 24 24'
-            strokeLinejoin='round'
-            strokeWidth='2'
-            strokeLinecap='round'
-            strokeMiterlimit='10'
-            stroke='currentColor'
-            fill='none'
-          >
-            <rect x='3' y='1' width='7' height='12' />
-            <rect x='3' y='17' width='7' height='6' />
-            <rect x='14' y='1' width='7' height='6' />
-            <rect x='14' y='11' width='7' height='12' />
-          </svg>
+          <img className="w-10" src="/logo-full.png" alt="WhatsApp Message Sender Logo"/>
           <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-            Company
+            WhatsApp Message Sender
           </span>
         </a>
         <ul className='flex items-center hidden space-x-8 lg:flex'>
@@ -41,11 +23,7 @@ export const Navbar = () => {
               href='/'
               aria-label='Our product'
               title='Our product'
-              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
             >
               Product
             </a>
@@ -55,11 +33,7 @@ export const Navbar = () => {
               href='/'
               aria-label='Our product'
               title='Our product'
-              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
             >
               Features
             </a>
@@ -69,11 +43,7 @@ export const Navbar = () => {
               href='/'
               aria-label='Product pricing'
               title='Product pricing'
-              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
             >
               Pricing
             </a>
@@ -83,11 +53,7 @@ export const Navbar = () => {
               href='/'
               aria-label='About us'
               title='About us'
-              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
             >
               About us
             </a>
@@ -95,9 +61,7 @@ export const Navbar = () => {
           <li>
             <a
               href='/'
-              className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-700
-
- hover:bg-teal-700 focus:shadow-outline focus:outline-none'
+              className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-700 hover:bg-teal-700 focus:shadow-outline focus:outline-none'
               aria-label='Sign up'
               title='Sign up'
             >
@@ -138,23 +102,9 @@ export const Navbar = () => {
                       title='Company'
                       className='inline-flex items-center'
                     >
-                      <svg
-                        className='w-8 text-teal-accent-700'
-                        viewBox='0 0 24 24'
-                        strokeLinejoin='round'
-                        strokeWidth='2'
-                        strokeLinecap='round'
-                        strokeMiterlimit='10'
-                        stroke='currentColor'
-                        fill='none'
-                      >
-                        <rect x='3' y='1' width='7' height='12' />
-                        <rect x='3' y='17' width='7' height='6' />
-                        <rect x='14' y='1' width='7' height='6' />
-                        <rect x='14' y='11' width='7' height='12' />
-                      </svg>
+                      <img className="w-10" src="/logo-full.png" alt="WhatsApp Message Sender Logo"/>
                       <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                        Company
+                        WhatsApp Message Sender
                       </span>
                     </a>
                   </div>
@@ -181,11 +131,7 @@ export const Navbar = () => {
                         href='/'
                         aria-label='Our product'
                         title='Our product'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
                       >
                         Product
                       </a>
@@ -195,11 +141,7 @@ export const Navbar = () => {
                         href='/'
                         aria-label='Our product'
                         title='Our product'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
                       >
                         Features
                       </a>
@@ -209,11 +151,7 @@ export const Navbar = () => {
                         href='/'
                         aria-label='Product pricing'
                         title='Product pricing'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
                       >
                         Pricing
                       </a>
@@ -223,11 +161,7 @@ export const Navbar = () => {
                         href='/'
                         aria-label='About us'
                         title='About us'
-                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700
-
-
-
-'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-accent-700'
                       >
                         About us
                       </a>
@@ -235,9 +169,7 @@ export const Navbar = () => {
                     <li>
                       <a
                         href='/'
-                        className='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-700
-
- hover:bg-teal-700 focus:shadow-outline focus:outline-none'
+                        className='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-accent-700 hover:bg-teal-700 focus:shadow-outline focus:outline-none'
                         aria-label='Sign up'
                         title='Sign up'
                       >
